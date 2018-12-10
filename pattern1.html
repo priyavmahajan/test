@@ -1,0 +1,24 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div id=pattern1>
+            </div>
+            <script>
+                
+                    for(i=1; i <= 3; i++){
+                        for(j=1; j<=i; j++){
+                            
+                            document.getElementById('pattern1').innerHTML +=j;
+                            if(j == i)
+                                continue;
+                            else
+                                
+                                document.getElementById('pattern1').innerHTML +=' ';
+                        }
+                        
+                        document.getElementById('pattern1').innerHTML +='<br>';
+                    }
+            </script>
+    </body>
+</html>
